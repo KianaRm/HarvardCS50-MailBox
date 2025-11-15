@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["harvardcs50-mailbox-production.up.railway.app"]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://harvardcs50-mailbox-production.up.railway.app",
+]
 
 # Application definition
 
